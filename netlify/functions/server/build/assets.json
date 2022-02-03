@@ -1,5 +1,5 @@
 {
-  "version": "3ffce176",
+  "version": "c91e8bae",
   "entry": {
     "module": "/build/entry.client-2J7QUANN.js",
     "imports": [
@@ -21,12 +21,12 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-NJRF4OGZ.js",
+      "module": "/build/routes/index-NCQZDGMZ.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-3FFCE176.js"
+  "url": "/build/manifest-C91E8BAE.js"
 }
