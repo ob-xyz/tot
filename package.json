@@ -5,23 +5,29 @@
   "license": "",
   "scripts": {
     "build": "remix build",
-    "dev": "cross-env NODE_ENV=development netlify dev",
-    "postinstall": "remix setup node"
+    "postinstall": "remix setup node",
+    "sass": "sass --watch --no-source-map styles:app/styles",
+    "build:css": "node-sass ./styles -o ./app/styles --output-style compressed",
+    "dev": "concurrently \"npm run sass\" \"cross-env NODE_ENV=development netlify dev\"",
+    "dev:css": "npm run build:css && node-sass -rw ./styles -o ./app/styles"
   },
   "dependencies": {
+    "@netlify/functions": "^0.10.0",
+    "@remix-run/netlify": "^1.1.3",
     "@remix-run/react": "^1.1.3",
+    "concurrently": "^7.0.0",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remix": "^1.1.3",
-    "@netlify/functions": "^0.10.0",
-    "@remix-run/netlify": "^1.1.3"
+    "sass": "^1.49.8"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.1.3",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
-    "typescript": "^4.1.2",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "typescript": "^4.1.2"
   },
   "engines": {
     "node": ">=14"

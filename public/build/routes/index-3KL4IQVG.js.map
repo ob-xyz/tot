@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/whitenight/Documents/GitHub/tot/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default, links } from \"/Users/whitenight/Documents/GitHub/tot/app/routes/index.tsx\";", "import styles from '../styles/';\n\nexport function links() {\n  return [{ rel: \"stylesheet\", href: styles }];\n}\n\nexport default function Index() {\n  return (\n    <div style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\" }}>\n      <h1>Welcome to Thick of Things \uD83C\uDF4C</h1>\n      <p>Updates coming soon, stay tuned!</p>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;;;;;;AAEO,iBAAiB;AACtB,SAAO,CAAC,EAAE,KAAK,cAAc,MAAM;AAAA;AAGtB,iBAAiB;AAC9B,SACE,oCAAC,OAAD;AAAA,IAAK,OAAO,EAAE,YAAY,yBAAyB,YAAY;AAAA,KAC7D,oCAAC,MAAD,MAAI,yCACJ,oCAAC,KAAD,MAAG;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/header.tsx"],
+  "sourcesContent": ["\nexport default function Header() {\n  return (\n        <h1>test</h1>\n  );\n}\n\n"],
+  "mappings": ";;;;;;AAAA;AACe,kBAAkB;AAC/B,SACM,oCAAC,MAAD,MAAI;AAAA;",
+  "names": []
+}

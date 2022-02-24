@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/whitenight/Documents/GitHub/tot/app/routes/header.tsx?browser", "../../../app/routes/header.tsx"],
+  "sourcesContent": ["export { default, links } from \"/Users/whitenight/Documents/GitHub/tot/app/routes/header.tsx\";", "import styles from '../styles/header.css';\n\nexport function links() {\n  return [{ rel: \"stylesheet\", href: styles }];\n}\n\nexport default function Header() {\n  return (\n        <h1>test</h1>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;;;;;;AAEO,iBAAiB;AACtB,SAAO,CAAC,EAAE,KAAK,cAAc,MAAM;AAAA;AAGtB,kBAAkB;AAC/B,SACM,oCAAC,MAAD,MAAI;AAAA;",
+  "names": []
+}

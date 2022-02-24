@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/whitenight/Documents/GitHub/tot/app/routes/header.tsx?browser"],
+  "sourcesContent": ["export { default } from \"/Users/whitenight/Documents/GitHub/tot/app/routes/header.tsx\";"],
+  "mappings": ";;;;;;;;AAAA;",
+  "names": []
+}

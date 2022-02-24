@@ -1,0 +1,110 @@
+/* FONTS */
+@font-face {
+  font-family: "arial";
+  src: url("../scss/fonts/arial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "light";
+  src: url("../scss/fonts/book.woff2") format("woff2");
+}
+@font-face {
+  font-family: "dark";
+  src: url("../scss/fonts/medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "bold";
+  src: url("../scss/fonts/bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "miami";
+  src: url("../scss/fonts/BroadwayD.otf") format("otf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f6f6f6;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+main {
+  padding-top: 5.5rem;
+  background-color: #f6f6f6;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "light";
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-family: dark;
+  font-weight: 900;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-family: dark;
+  font-weight: 100;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: dark;
+  color: #000000;
+  text-shadow: none;
+}
+
+p {
+  font-family: light;
+  font-size: 1rem;
+  color: #000000;
+  text-shadow: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+
+span {
+  font-family: bold;
+  font-size: 4rem;
+  color: #281244;
+}
+
+button {
+  font-size: 0.8rem;
+  font-family: light;
+  font-weight: 100;
+}
