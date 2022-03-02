@@ -7,10 +7,11 @@ import {
   ScrollRestoration
 } from "remix";
 import styles from "~/styles/global.css";
+import stylesIndex from "~/styles/routes/index.css";
 import type { MetaFunction } from "remix";
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }];
+  return [{ rel: "stylesheet", href: styles, stylesIndex }];
 }
 
 export const meta: MetaFunction = () => {

@@ -1,6 +1,7 @@
 @import 
 '../styles/global/scss/Colors.scss',
-'../styles/global/scss/Fonts.scss';
+'../styles/global/scss/Fonts.scss',
+'../styles/routes/index.scss';
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,7 @@ body {
   margin: 0;
   width:100%;
   min-height: 100vh;
-  background-color: $white;
+  background-color: $black;
 }
 body {
   overflow-y: scroll;
@@ -30,17 +31,15 @@ img {
   outline: none;
   border: none;
 }
-
 a {
   text-decoration: none;
   font-family: book;
 }
-
 h1 {
   font-family: 'medium';
   font-size: 1.75rem;
   font-weight: 900;
-  color: $black;
+  color: $light-grey;
   text-decoration: none;
   text-shadow: none;
 }
@@ -49,7 +48,7 @@ h2 {
   font-size: 0.8rem;
   font-family: bold;
   font-weight: 100;
-  color: $black;
+  color: $light-grey;
   text-decoration: none;
   text-shadow: none;
 }
@@ -59,14 +58,14 @@ h4,
 h5,
 h6 {
   font-family: bold;
-  color: $black;
+  color: $light-grey;
   text-shadow: none;
 }
 
 p {
   font-family: book;
   font-size: 1rem;
-  color: $black;
+  color: $light-grey;
   text-shadow: none;
 }
 

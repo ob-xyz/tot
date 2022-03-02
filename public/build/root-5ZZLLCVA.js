@@ -18,7 +18,7 @@ init_react();
 init_react();
 
 // app/styles/global.css
-var global_default = "/build/_assets/global-LBEDFVPR.css";
+var global_default = "/build/_assets/global-VIFKTMAT.css";
 
 // app/root.tsx
 function links() {
