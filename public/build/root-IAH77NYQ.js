@@ -18,10 +18,10 @@ init_react();
 init_react();
 
 // app/styles/global.css
-var global_default = "/build/_assets/global-UIMEDMP2.css";
+var global_default = "/build/_assets/global-755N7UJT.css";
 
 // app/styles/routes/index.css
-var routes_default = "/build/_assets/index-MV2DJOY5.css";
+var routes_default = "/build/_assets/index-VI7E4FYF.css";
 
 // app/root.tsx
 function links() {
